@@ -1,0 +1,32 @@
+{
+    "name": "DNMVCS/Project",
+    "description": "Framework Start Template Project",
+    "type": "library",
+    "keywords": [
+        "framework",
+		"service"
+    ],
+    "homepage": "https://www.github.com/dvaknheo/DNMVCS-Project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "davknheo",
+            "email": "85811616@qq.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "DNMVCS\\": "DNMVCS/"
+        }
+    },
+	"scripts": {
+        "post-update-cmd": [
+            "DNMVCS\\ComposerScripts::PostCreateProject"
+        ]
+    },
+    "require": {
+        "php": ">=7.0.0",
+		"DNMVCS/Framwork":"dev-master"
+	}
+	
+}
