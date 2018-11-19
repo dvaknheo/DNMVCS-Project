@@ -19,11 +19,7 @@
             "DNMVCS\\": "DNMVCS/"
         }
     },
-	"scripts": {
-        "post-update-cmd": [
-            "DNMVCS\\ComposerScripts::PostCreateProject"
-        ]
-    },
+	
     "require": {
         "php": ">=7.0.0",
 		"DNMVCS/Framwork":"dev-master"
