@@ -17,6 +17,9 @@
     "scripts": {
         "post-create-project-cmd": [
             "DNMVCS\\ComposerScripts::PostCreateProject"
+        ],
+		"post-update-cmd": [
+            "DNMVCS\\ComposerScripts::DumpTemplateFiles"
         ]
     },
     "require": {
