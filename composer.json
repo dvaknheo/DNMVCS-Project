@@ -19,11 +19,11 @@
             "DNMVCS\\ComposerScripts::PostCreateProject"
         ],
 		"post-update-cmd": [
-            "DNMVCS\\ComposerScripts::DumpTemplateFiles"
+            "DNMVCS\\ComposerScripts::PostUpdate"
         ]
     },
     "require": {
         "php": ">=7.0.0",
-		"dnmvcs/framework":"1.0.*"
+		"dnmvcs/framework":">=1.0.3"
 	}
 }
