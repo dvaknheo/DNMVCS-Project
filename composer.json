@@ -4,7 +4,7 @@
     "type": "project",
     "keywords": [
         "framework",
-		"service"
+        "service"
     ],
     "homepage": "https://www.github.com/dvaknheo/DNMVCS-Project",
     "license": "MIT",
@@ -18,12 +18,15 @@
         "post-create-project-cmd": [
             "DNMVCS\\ComposerScripts::PostCreateProject"
         ],
-		"post-update-cmd": [
+        "post-update-cmd": [
             "DNMVCS\\ComposerScripts::PostUpdate"
+        ],
+        "post-install-cmd": [
+            "DNMVCS\\ComposerScripts::PostInstall"
         ]
     },
     "require": {
         "php": ">=7.0.0",
-		"dnmvcs/framework":">=1.0.3"
-	}
+        "dnmvcs/framework":">=1.0.3"
+    }
 }
